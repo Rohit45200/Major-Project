@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>University Website Design</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+  <!-- Header -->
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="Images/logo.png" alt="Logo" /></a>
+      <div class="nav-links" id="navLinks">        
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#explore">EXPLORE MORE FUTURE</a></li>
+          <li><a href="#about-tabs-start">ABOUT</a></li>
+          <li><a href="#courses">ADMISSION</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+
+        </ul>
+      </div>
+      <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+    </nav>
+    <div class="text-class">
+      <h1>Empowering Future Leaders Through Innovation and Excellence</h1>
+
+      <p>
+       A premier institute offering world-class education, modern infrastructure, and a vibrant campus life to nurture excellence in every student.
+      </p>
+      <a href="#" class="hero-btn">Explore Our Campus & Programs</a>
+    </div>
+  </section>
+
+ <!-- 🌙 Dark Mode Toggle Button -->
+<button id="themeToggle" title="Toggle Dark Mode">
+  <i id="themeIcon" class="fas fa-moon"></i>
+</button>
+
+  <!-- Marquee -->
+  <section class="notice-bar">
+    <marquee behavior="scroll" direction="left" scrollamount="5">
+      🎓 Admission Open for 2025 | 📢 Campus Placement Drive on Aug 10 | 🏆 Scholarship Applications are Live Now
+    </marquee>
+  </section>
+
+  <!-- About -->
+
+<section id="about-section" class="dynamic-section">
+  <h1 class="section-title">Welcome to My College</h1>
+
+<div id="about-tabs-start"></div>
+
+  <div class="about-tabs">
+    <button class="about-tab-btn active" onclick="openAboutTab('about-college-section', this)">About College</button>
+    <button class="about-tab-btn" onclick="openAboutTab('chairman-msg', this)">Chairman's Message</button>
+    <button class="about-tab-btn" onclick="openAboutTab('correspondent-msg', this)">Correspondent's Message</button>
+    <button class="about-tab-btn" onclick="openAboutTab('principal-msg', this)">Principal's Message</button>
+    <button class="about-tab-btn" onclick="openAboutTab('governing-body', this)">Governing Body</button>
+  </div>
+
+  <div class="about-tab-content" id="about-college-section" style="display: none;">
+      
+   <video width="100%" controls>
+     <source src="Videos/college-cam-view.MP4.mp4" type="video/mp4">
+   </video>
+    <p><section class="about-structured-section">
+  <div class="section-block">
+    <h2><i class="fa fa-asterisk" aria-hidden="true"></i> About Sengunthar Engineering College</h2>
+    <p>Sengunthar Engineering College was established in 2001 with the goal of achieving excellence in engineering and technological pursuits. It is affiliated to Anna University and approved by AICTE (All India Council for Technical Education).</p>
+  </div>
+
+  <div class="section-block">
+    <h2><i class="fa fa-asterisk" aria-hidden="true"></i> Educational Philosophy</h2>
+    <p>The college aims to redefine education by addressing the educational gap among rural students in India. It focuses on instilling a strong work ethic, discipline, and principles that provide students with a competitive edge.</p>
+  </div>
+
+  <div class="section-block">
+    <h2><i class="fa fa-asterisk" aria-hidden="true"></i> Key Features</h2>
+    <ul>
+      <li>Enhanced hands-on training and well-established infrastructure.</li>
+      <li>Updated software and access to a comprehensive library & digital library.</li>
+      <li>MoUs with reputed organizations for academic collaboration.</li>
+      <li>Industrial visits, guest lectures, workshops, symposiums, and exhibitions.</li>
+      <li>Focus on sports, games, and co/extracurricular activities.</li>
+    </ul>
+  </div>
+
+  <div class="section-block">
+    <h2><i class="fa fa-asterisk" aria-hidden="true"></i> Faculty and Support</h2>
+    <p>Our dedicated faculty includes knowledgeable and professional educators who inspire students. Leadership from the Director and Principal ensures every student receives guidance and support.</p>
+  </div>
+
+  <div class="section-block">
+    <h2><i class="fa fa-asterisk" aria-hidden="true"></i> Student Development</h2>
+    <p>Each student is monitored closely with constant reviews and personal counselling. This approach helps students to excel in academics and life.</p>
+  </div>
+
+  <div class="section-block">
+    <h2><i class="fa fa-asterisk" aria-hidden="true"></i> Global Impact</h2>
+    <p>The college is committed to producing globally impactful talents who blossom and spread their fragrance across the world.</p>
+  </div>
+
+  <div class="section-block">
+    <h2><i class="fa fa-asterisk" aria-hidden="true"></i> Summary</h2>
+    <p>Sengunthar Engineering College emphasizes holistic student development through excellent education, hands-on training, industry collaboration, and individual attention in a vibrant and supportive learning environment.</p>
+  </div>
+
+  <div class="section-block">
+    <h2><i class="fa fa-asterisk" aria-hidden="true"></i> Location</h2>
+    <p>Sengunthar Engineering College and Snegunthar College of Engineering are located at a distance of
+       3 kms from Tiruchengode on the Tiruchengode-Namakkal State Highway at Kosavampalayam with a sprawling 60 
+       acres panoramic landscape and near the foothill of Nagagiri from where Lord Arthenareeswara showers His blessing to
+       His devotees. Tiruchengode, a renowned entrepreneurialtown is well connected to the important cities like Erode (20Kms),
+       Salem (45Kms), Namakkal (35Kms) and Karur (55Kms)..
+    </p>
+  </div>
+</section>
+</p>
+    <h2><i class="fa fa-asterisk" aria-hidden="true"></i> organizational structure</h2>
+       <img src="Images/organ-structure.png" alt=""  class="organ-structure-img" />
+  </div>
+
+  <div class="about-tab-content" id="chairman-msg" style="display:none;">
+     <!-- 🔴 Chairman Image & Name -->
+  <div class="chairman-intro">
+    <img src="Images/chairn.png" alt="Thiru. Jansons T. S. Natarajan" class="chairman-img" />
+    <h3 class="chairman-name">Thiru. Jansons T. S. Natarajan<br><span>Chairman, Jansons Group</span></h3>
+  </div>
+    <p><section class="chairman-section">
+  <div class="chairman-block">
+    <h2><i class="fas fa-user-tie"></i> About the Chairman</h2>
+    <p>Thiru. Jansons T. S. Natarajan is a luminary and a multifaceted genius, dedicatedly fostering the inherent talents of youth hailing from rural backgrounds. As the esteemed Founder and Chairman of the Jansons Group of Companies, based in Tiruchengode, his indomitable spirit extends across various sectors, including education, technology, healthcare, and granite industries.</p>
+  </div>
+
+  <div class="chairman-block">
+    <h2><i class="fas fa-building"></i> Enterprising Ventures</h2>
+    <p>Under his visionary leadership, the Jansons Group boasts several prestigious institutions, including the Jansons School of Business and Jansons Institute of Technology in Coimbatore. Additionally, Thiru. Jansons has played a pivotal role in the establishment of Jansons MRI Diagnostic Centre in Erode and Heritage Granites in Sankari. As a Syndicate member of Periyar University, Salem, he actively contributes to the academic landscape, ensuring that his influence reaches far and wide.</p>
+  </div>
+
+  <div class="chairman-block">
+    <h2><i class="fas fa-chalkboard-teacher"></i> Educational Impact</h2>
+    <p>Thiru. Jansons' fervent and energetic support has transformed Sengunthar Engineering College into a breeding ground for exceptional talent. His crafted programs, strategically implemented at crucial junctures, empower students to blossom into individuals with a distinctive style. His unwavering commitment to unveiling the uniqueness within each student has turned the institution into a blissful abode where grace and innovation converge.</p>
+  </div>
+
+  <div class="chairman-block">
+    <h2><i class="fas fa-star"></i> A Trailblazer in Society</h2>
+    <p>What sets Thiru. Jansons apart is his dual role as an educationalist and entrepreneur. His craftsmanship goes beyond the walls of institutions, as he plants the right seeds in society, nurturing future leaders and change-makers. His impact as a visionary leader reverberates through the rare breed of students produced by Sengunthar Engineering College, each equipped with skills and knowledge that set them apart.</p>
+  </div>
+
+  <div class="chairman-block">
+    <h2><i class="fas fa-quote-right"></i> Conclusion</h2>
+    <p>Thiru. Jansons T. S. Natarajan stands as a beacon of inspiration, weaving together education, entrepreneurship, and societal transformation. His relentless pursuit of excellence continues to shape the future, leaving an indelible mark on the landscape of education and beyond.</p>
+  </div>
+</section>
+</p>
+  </div>
+
+  <!-- corresspondent section............ -->
+  <div class="about-tab-content" id="correspondent-msg" style="display:none";>
+    
+  <!-- Image and Name -->
+  <div class="correspondent-intro">
+    <img src="Images/corres.png" alt="Correspondent" class="correspondent-img" />
+    <h3 class="correspondent-name">Prof. A. Baladhandapani, M. A., M. Phil.<br><span>Correspondent</span></h3>
+  </div>
+
+  <h2><i class="fas fa-envelope-open-text"></i> Message from the Correspondent</h2>
+
+  <p><strong>Dear Students, Faculty, and Esteemed Stakeholders,</strong></p>
+  <p>It is with immense pleasure and a deep sense of responsibility that I extend my heartfelt greetings to each one of you as the Secretary and Correspondent of Sengunthar Engineering College.</p>
+
+  <h3><i class="fas fa-briefcase"></i> Professional Journey</h3>
+  <p>My professional journey, spanning over two decades, has been a fulfilling odyssey in the realm of education. With over 15 years as an Assistant Professor, followed by a dedicated period as a Professor at Erode Arts and Science College, and subsequently serving as the Principal at Sengunthar Arts and Science College, Tiruchengode, I bring a wealth of experience to my current role.</p>
+
+  <h3><i class="fas fa-user-graduate"></i> Commitment to Students</h3>
+  <p>As Secretary and Correspondent, I am committed to fostering an environment where each student can flourish academically, personally, and professionally. Described as a notable and celebrated figure, I am driven by a passion to infuse our educational ecosystem with enthusiasm, generating a fresh and invigorating atmosphere among our students.</p>
+
+  <h3><i class="fas fa-map-signs"></i> A Path Definer</h3>
+  <p>I consider myself a valid asset to the student community, and it is my sincere endeavor to be a path definer, guiding each student towards their unique journey of success. My refined and dignified ideas aim to inspire and empower our students, shaping them into well-rounded individuals poised for excellence.</p>
+
+  <h3><i class="fas fa-hand-holding-heart"></i> Student Welfare & Advocacy</h3>
+  <p>Central to my role is a profound focus on student welfare. Every action I undertake is centered around ensuring the benefit of our students. It is truly heartening to witness the admiration of our student body, who see me as a God-gifted voice advocating for their needs within the institution.</p>
+
+  <h3><i class="fas fa-lightbulb"></i> Showcasing Talent</h3>
+  <p>In this pursuit, I continuously explore innovative schemes to showcase the adroitness of our students, bringing them into the limelight and providing them with opportunities to shine.</p>
+
+  <h3><i class="fas fa-users"></i> Final Words</h3>
+  <p>I encourage each student to actively engage in the myriad opportunities available at Sengunthar Engineering College. This institution is not just a place of learning but a community where ideas are nurtured, talents are celebrated, and dreams take flight.</p>
+  <p>As we collectively strive for excellence, my door is always open for constructive discussions, ideas, and concerns. Together, let us continue to make Sengunthar Engineering College a beacon of educational brilliance.</p>
+
+  <p><strong>Thank you for entrusting me with this vital role. I look forward to a collaborative and successful journey.</strong></p>
+ </div>
+
+</div>
+
+
+    <!-- Principal Section -->
+<div class="about-tab-content principal-section" id="principal-msg" style="display: none;">
+
+  <!-- Image and Name -->
+  <div class="principal-intro">
+    <img src="Images/principal.png" alt="Principal" class="principal-img" />
+    <h3 class="principal-name">Dr. R. Satish Kumar<br><span>Principal</span></h3>
+  </div>
+
+  <div class="principal-block">
+    <h2><i class="fas fa-envelope-open-text"></i> Message from the Principal</h2>
+
+    <p><strong>Dear Students, Faculty, and Stakeholders,</strong></p>
+    <p>I am Dr. R. Satish Kumar, and it is with great pleasure and pride that I address you as the Principal of Sengunthar Engineering College. As we navigate the exciting journey of academic and personal development, I would like to share a few thoughts with our esteemed community.</p>
+
+    <h3><i class="fas fa-school"></i> Institutional Excellence</h3>
+    <p>Our institution, established in 2001, stands as a beacon of excellence in engineering and technological education. I am privileged to lead a team of dedicated faculty members who are committed to instilling a strong work ethic, discipline, and principles in our students.</p>
+
+    <h3><i class="fas fa-bullseye"></i> Educational Philosophy</h3>
+    <p>The philosophy of our educational approach is centered on addressing the educational gap, particularly among rural students, and preparing them for a future marked by success and competitiveness.</p>
+
+    <h3><i class="fas fa-graduation-cap"></i> My Educational Journey</h3>
+    <p>My educational journey, from a Bachelor's in Electrical and Electronics Engineering to a Ph.D. in Microwave Engineering, has equipped me with the knowledge and passion for fostering excellence in education. With 22 years of teaching experience, I am deeply invested in guiding our students toward becoming not only competitive professionals but also high-order entrepreneurs with ethical standards.</p>
+
+    <h3><i class="fas fa-lightbulb"></i> Vision & Mission</h3>
+    <p>The college's vision and mission reflect our commitment to providing a comprehensive learning environment. We aim to transform aspiring minds by imparting professional, technical, ethical, and entrepreneurial skills.</p>
+
+    <h3><i class="fas fa-handshake"></i> Invitation to Students</h3>
+    <p>I invite each student to actively engage in the opportunities provided by our institution, including hands-on training, industry collaborations, and various extracurricular activities.</p>
+
+    <h3><i class="fas fa-award"></i> Acknowledgement to Trust</h3>
+    <p>I would like to express my gratitude to the Sengunthar Charitable Trust for their dedication to nurturing entrepreneurial skills, contributing to the national cause, and promoting holistic development.</p>
+
+    <h3><i class="fas fa-users"></i> Final Words</h3>
+    <p>As we work together toward socio-economic change and inclusivity, I encourage each student to take full advantage of the resources, guidance, and opportunities provided by the college.</p>
+
+    <p><strong>Wishing you all a successful and enriching academic year.</strong></p>
+  </div>
+</div>
+
+
+</div>
+
+      <!-- 🔷 Governing Body Toggle Buttons -->
+<div class="about-tab-content" id="governing-body" style="display:none;">
+
+  <div class="gov-box" onclick="toggleGovBox('functions-box')">
+    <i class="fas fa-tasks"></i>
+    <h3>Functions & Responsibilities</h3>
+  </div>
+
+  <div class="gov-box" onclick="toggleGovBox('members-box')">
+    <i class="fas fa-users"></i>
+    <h3>Members</h3>
+  </div>
+
+  <div class="gov-box" onclick="toggleGovBox('minutes-box')">
+    <i class="fas fa-file-alt"></i>
+    <h3>Minutes of Meeting</h3>
+  </div>
+</div>
+
+<!-- 🔽 Toggle Content Areas -->
+
+<!-- 📌 Functions & Responsibilities Content -->
+<div class="gov-content" id="functions-box" style="display:none;">
+  <div class="gov-block">
+    <h2><i class="fas fa-tasks"></i> Functions and Responsibilities</h2>
+    <ul class="gov-list">
+      <li><i class="fas fa-check-circle"></i> Evolves the Vision, Mission and Objectives of the College and ensures that they are achieved</li>
+      <li><i class="fas fa-check-circle"></i> Ensures total academic and administrative autonomies for achieving short and long term objectives</li>
+      <li><i class="fas fa-check-circle"></i> Governing Council makes all policy decisions including HR, Finance, Innovation & Incubation etc.</li>
+      <li><i class="fas fa-check-circle"></i> Approves the curriculum as recommended by the Academic Council</li>
+      <li><i class="fas fa-check-circle"></i> Approves new programmes of study leading to degree</li>
+      <li><i class="fas fa-check-circle"></i> Approves scholarships, fellowships, medals, prizes etc. on the recommendation of Academic Council</li>
+      <li><i class="fas fa-check-circle"></i> Thoroughly discusses Academic and Finance Committees’ matters and communicates decisions</li>
+      <li><i class="fas fa-check-circle"></i> Administers the physical resources of the Institute</li>
+      <li><i class="fas fa-check-circle"></i> Reviews institute performance and guides towards academic and research excellence</li>
+      <li><i class="fas fa-check-circle"></i> Ensures regulatory compliance by authorities like Principal, HoD, Officers, etc.</li>
+      <li><i class="fas fa-check-circle"></i> Ratifies and resolves minutes of Academic Council, BoS, Finance Committee, and IQAC</li>
+      <li><i class="fas fa-check-circle"></i> Applies for accreditations (NBA, NAAC, UGC, ABET etc.)</li>
+      <li><i class="fas fa-check-circle"></i> Monitors functioning of non-statutory committees</li>
+      <li><i class="fas fa-check-circle"></i> Encourages applying for funds from different agencies</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 📌 Members Placeholder -->
+<div class="gov-content" id="members-box" style="display:none;">
+  <div class="gov-block">
+    <h2><i class="fas fa-users"></i> Members</h2>
+    <!-- 📋 Governing Body - Members -->
+<div class="gov-section">
+  <div class="gov-block">
+    <h2><i class="fas fa-users"></i> Governing Body Members</h2>
+
+    <div class="table-responsive">
+      <table class="gov-table">
+        <thead>
+          <tr>
+            <th>S.No.</th>
+            <th>Members (as per UGC Norms)</th>
+            <th>Members Nominated</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Chairperson</td><td>Thiru Jansons T.S. Natarajan<br><small>President, Sengunthar Charitable Trust, Tiruchengode</small></td></tr>
+          <tr><td>2</td><td>Management Member</td><td>Prof. A. Baladhandapani<br><small>Secretary and Correspondent, SCT, Tiruchengode</small></td></tr>
+          <tr><td>3</td><td>Management Member</td><td>Mr. M.K. Dhanasekaran<br><small>Treasurer, SCT, Tiruchengode</small></td></tr>
+          <tr><td>4</td><td>Management Member</td><td>Mr. T. Shanmugasundaram<br><small>Joint Secretary, SCT, Tiruchengode</small></td></tr>
+          <tr><td>5</td><td>Management Member</td><td>Er. A.B. Madhan<br><small>CEO, Sengunthar Institutions</small></td></tr>
+          <tr><td>6</td><td>Management Member</td><td>Mr. Aravind Thirunavukkarasu<br><small>Director, Corporate Relations and Training</small></td></tr>
+          <tr><td>7</td><td>UGC Nominee</td><td>Prof. M. R. Bhagwan Singh<br><small>BMS College of Engineering, Bengaluru</small></td></tr>
+          <tr><td>8</td><td>State Government Nominee</td><td>Dr. V. Gopalakrishnan<br><small>Government College of Technology, Coimbatore</small></td></tr>
+          <tr><td>9</td><td>University Nominee</td><td>Dr. M. Palanikumar<br><small>PSG College of Technology, Coimbatore</small></td></tr>
+          <tr><td>10</td><td>Industrialist</td><td>Mr. SCB. Santhoshkumar<br><small>NVRON Life Science Ltd., Coimbatore</small></td></tr>
+          <tr><td>11</td><td>Academician</td><td>Dr. N. Kumaresan<br><small>NIT, Tiruchirapalli</small></td></tr>
+          <tr><td>12</td><td>Teachers of the College</td><td>Dr. K.L. Palanisamy<br><small>Dean (Student Affairs)</small></td></tr>
+          <tr><td>13</td><td>Teachers of the College</td><td>Dr. B. Sujatha<br><small>Dean (Academics)</small></td></tr>
+          <tr><td>14</td><td>Principal (Ex-Officio)</td><td>Dr. R. Satish Kumar<br><small>Principal, Sengunthar Engineering College</small></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+<!-- 📌 Minutes Placeholder -->
+<div class="gov-content" id="minutes-box" style="display:none;">
+  <div class="gov-block">
+    <h2><i class="fas fa-file-alt"></i> Minutes of Meeting</h2>
+    <ul class="minutes-list">
+      <li>
+        <i class="fas fa-file-pdf"></i>
+        <a href="https://www.sect.edu.in/pdf/01-GB-20200921.pdf" target="_blank">1st Governing Body Minutes - 21 November 2020</a>
+      </li>
+      <li>
+        <i class="fas fa-file-pdf"></i>
+        <a href="https://www.sect.edu.in/pdf/GOVERNING%20BODY%20-%2027.05.2022.pdf" target="_blank">2nd Governing Body Minutes - 27 May 2022</a>
+      </li>
+      <li>
+        <i class="fas fa-file-pdf"></i>
+        <a href="https://www.sect.edu.in/pdf/3rd%20GB%20Meeting%20Minutes%2014.07.2023.pdf" target="_blank">3rd Governing Body Minutes - 14 July 2023</a>
+      </li>
+      <li>
+        <i class="fas fa-file-pdf"></i>
+        <a href="https://www.sect.edu.in/pdf/4th%20Governing%20Body%20Minutes%20-%2026%20February%202024.pdf" target="_blank">4th Governing Body Minutes - 26 February 2024</a>
+      </li>       
+      <li>
+        <i class="fas fa-file-pdf"></i>
+        <a href="https://www.sect.edu.in/pdf/5th%20governing%20body%20minutes%20of%20meeting%20-%2019.10.2024.pdf" target="_blank">5th Governing Body Minutes - 19 October 2024</a>
+      </li></a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+  </div>
+</section>
+
+
+
+  <!-- Admission section---------------------------------------------->
+<section class="courses" id="courses">
+  <div class="admission-title">📘 Currently Viewing: Admission</div>
+
+  <div class="admission-options">
+  <div class="admission-box" onclick="showAdmissionDetail('procedure')">
+  <i class="fas fa-graduation-cap"></i>
+  <h4>Under Graduate Programmes (UGP)</h4>
+</div>
+
+<div class="admission-box" onclick="showAdmissionDetail('documents')">
+  <i class="fas fa-university"></i>
+  <h4>Post Graduate Programmes (PGP)</h4>
+</div>
+
+<div class="admission-box" onclick="showAdmissionDetail('fees')">
+  <i class="fas fa-flask"></i>
+  <h4>Research Programmes</h4>
+</div>
+
+<div class="admission-box" onclick="showAdmissionDetail('eligibility')">
+  <i class="fas fa-check-circle"></i>
+  <h4>Eligibility</h4>
+</div>
+
+<div class="admission-box" onclick="showAdmissionDetail('strategy')">
+  <i class="fas fa-lightbulb"></i>
+  <h4>Admission Strategy</h4>
+</div>
+
+<div class="admission-box" onclick="showAdmissionDetail('scholarship')">
+  <i class="fas fa-hand-holding-usd"></i>
+  <h4>Scholarships</h4>
+</div>
+
+<div class="admission-box" class="inquiry-form" onclick="showAdmissionDetail('inquiry')">
+  <i class="fas fa-edit"></i>
+  <h4>Admission Enquiry Form</h4>
+</div>
+
+<div class="admission-box" onclick="showAdmissionDetail('apply')">
+  <i class="fas fa-file-invoice-dollar"></i>
+  <h4>Course Fee Structure</h4>
+</div>
+
+
+
+
+
+<!-- Detail Area -->
+<div class="admission-detail" id="admission-detail-box" style="display: none;">
+  <div id="admission-detail-content"></div>
+</div>
+
+</section>
+
+
+  <!-- Facilities Section -->
+<section class="facilities" id="facilities">
+  <h1><i class="fas fa-school"></i>Our Facilities</h1>
+  <p>We provide world-class infrastructure for your holistic development.</p>
+
+  <!-- Main Options -->
+  <div class="facility-main-options">
+    <div class="facility-option" onclick="showFacilityType('facilities-list')">
+      <i class="fas fa-building"></i>
+      <h3>Facilities</h3>
+    </div>
+    <div class="facility-option" onclick="showFacilityType('clubs-list')">
+      <i class="fas fa-users"></i>
+      <h3>Clubs & Cells</h3>
+    </div>
+  </div>
+
+  <!-- Sub-links -->
+  <div class="facility-lists">
+    <div class="sub-list" id="facilities-list" style="display: none;">
+      <ul>
+        <li onclick="showFacilityDetail('library')">Library</li>
+        <li onclick="showFacilityDetail('sports')">Sports Complex</li>
+        <li onclick="showFacilityDetail('cafeteria')">Cafeteria</li>
+        <li onclick="showFacilityDetail('infrastructure')">Infrastructure</li>
+        <li onclick="showFacilityDetail('centralLibrary')">Central Library</li>
+        <li onclick="showFacilityDetail('professional')">Professional Association</li>
+        <li onclick="showFacilityDetail('mou')">MoU</li>
+        <li onclick="showFacilityDetail('transport')">🚍 Transport</li>
+        <li onclick="showFacilityDetail('hostel')"><i class="fas fa-hospital-user"></i> Hostel</li>
+
+
+      </ul>
+    </div>
+
+    <div class="sub-list" id="clubs-list" style="display: none;">
+      <ul>
+        <li onclick="showFacilityDetail('nss')">NSS Unit</li>
+        <li onclick="showFacilityDetail('yrc')">YRC</li>
+        <li onclick="showFacilityDetail('rotaract')">Rotaract Club</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Detail Display Area -->
+  <div class="facility-details" id="facility-detail-box" style="display: none;">
+    <img id="facility-img" src="" alt="Facility Image">
+    <div id="facility-text"></div>
+  </div>
+
+  <!-- Infrastructure Separate Section -->
+  <div class="facility-detail" id="infrastructure-detail" style="display: none;">
+    <h2><i class="fas fa-building"></i> Infrastructure</h2>
+    <div class="infra-content">
+      <div class="infra-text">
+        <ul>
+          <li><i class="fas fa-utensils"></i> Modern kitchen equipment and hygienic food service</li>
+          <li><i class="fas fa-tint"></i> Purified water (RO system) in coolers and mess</li>
+          <li><i class="fas fa-bolt"></i> Uninterrupted power supply</li>
+          <li><i class="fas fa-briefcase-medical"></i> Medical facilities</li>
+          <li><i class="fas fa-desktop"></i> Computer labs with dedicated internet</li>
+          <li><i class="fas fa-book-reader"></i> Library open from 8:00 AM to 8:00 PM</li>
+          <li><i class="fas fa-bed"></i> Spacious rooms</li>
+          <li><i class="fas fa-drumstick-bite"></i> Non-vegetarian food available</li>
+          <li><i class="fas fa-phone-alt"></i> Telephone facilities</li>
+          <li><i class="fas fa-tv"></i> Common room with TV and reading rooms</li>
+          <li><i class="fas fa-dumbbell"></i> Indoor & outdoor games, Gym for boys and girls</li>
+          <li><i class="fas fa-tshirt"></i> Dry cleaning facilities</li>
+        </ul>
+      </div>
+      <div class="infra-image">
+        <img src="Images/cam.infras.jpg" alt="infrastructure">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 🔷 Central Library Box -->
+<div class="facility-detail" id="central-library" style="display: none;">
+  <h2><i class="fas fa-book"></i> Central Library</h2>
+  
+  <div class="infra-content">
+    <div class="infra-text">
+      <h3><i class="fas fa-eye"></i> Vision</h3>
+      <p>To feed the knowledge and support the education and career programs of the institution by providing physical and intellectual access to the information.</p>
+
+      <h3><i class="fas fa-building"></i> Facilities</h3>
+      <ul>
+        <li><i class="fas fa-layer-group"></i> 13,43,390 sq. mt. two-storey central library</li>
+        <li><i class="fas fa-book-open"></i> 32206 books, 161 E-journals, 12 newspapers</li>
+        <li><i class="fas fa-tv"></i> Electronic notice board with college updates</li>
+        <li><i class="fas fa-award"></i> Best Library User Award annually</li>
+        <li><i class="fas fa-desktop"></i> 60 computers, HP Xeon® server, 8mbps broadband</li>
+        <li><i class="fas fa-clock"></i> Timings: 8 a.m. to 8 p.m.</li>
+        <li><i class="fas fa-barcode"></i> Barcoded books with OPAC access</li>
+      </ul>
+
+      <h3><i class="fas fa-tools"></i> Services</h3>
+      <ul>
+        <li>Printout, Scanning, CD/DVD Writing</li>
+        <li>Reprography, Internet, Media Service</li>
+        <li>Reference, Lending, User Orientation</li>
+        <li>Information Retrieval, Current Awareness</li>
+      </ul>
+
+      <h3><i class="fas fa-cubes"></i> Sections</h3>
+      <ul>
+        <li>Technical, Lending, Reference, Periodicals, Audio-Video</li>
+        <li>Digital Library, Group Discussion, Stack, New Arrival</li>
+      </ul>
+
+      <h3><i class="fas fa-exclamation-triangle"></i> Rules</h3>
+      <p>Maintain silence, wear ID cards, proper dress code, no personal books, and follow return rules strictly.</p>
+    </div>
+    <div class="infra-image">
+      <img src="Images/LabraryHall.png" alt="Central Library" />
+    </div>
+  </div>
+
+  <!-- 🔶 Books Table -->
+  <div class="lib-table">
+    <h3><i class="fas fa-book"></i> Books (Department-wise)</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Department</th>
+          <th>Titles</th>
+          <th>Volumes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Civil Engineering</td><td>1352</td><td>3355</td></tr>
+        <tr><td>Mechanical Engineering</td><td>1428</td><td>3636</td></tr>
+        <tr><td>ECE</td><td>2860</td><td>5990</td></tr>
+        <tr><td>EEE</td><td>1709</td><td>3486</td></tr>
+        <tr><td>CSE</td><td>4448</td><td>7302</td></tr>
+        <tr><td>Others...</td><td colspan="2">Total Titles: 23163 | Total Volumes: 53782</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 🔶 Journals Table -->
+  <div class="lib-table">
+    <h3><i class="fas fa-newspaper"></i> Journals</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Department</th>
+          <th>National</th>
+          <th>International</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Civil Engineering</td><td>6</td><td>6</td></tr>
+        <tr><td>Mechanical Engineering</td><td>6</td><td>6</td></tr>
+        <tr><td>EEE</td><td>6</td><td>6</td></tr>
+        <tr><td>CSE</td><td>6</td><td>6</td></tr>
+        <tr><td>General Library</td><td>16</td><td>0</td></tr>
+        <tr><td>Total</td><td>118</td><td>96</td></tr>
+      </tbody>
+    </table>
+  </div>
+ </div>
+
+
+  <!-- 🔷 Professional Association Detail -->
+<div class="facility-detail" id="professional" style="display: none;">
+  <h2><i class="fas fa-users-cog"></i> Professional Associations</h2>
+
+  <div class="association-item">
+    <img src="Images/iste.jpg" alt="ISTE">
+    <h3>Indian Society for Technical Education (ISTE)</h3>
+    <p>The leading national professional society for technical education, ISTE aims at the career development of teachers and personality development of students. It partners with AICTE and MHRD to run refinement programs and boasts a wide membership base across institutions including IITs and NITs.</p>
+  </div>
+
+  <div class="association-item">
+    <img src="Images/sae.jpg" alt="SAE India">
+    <h3>Society of Automotive Engineers (SAE India)</h3>
+    <p>An affiliate of SAE International, SAEINDIA promotes advancement in the mobility sector, organizing international exhibitions covering automotive, aerospace, and commercial vehicle technology. It connects engineers, academics, and industry leaders across the country.</p>
+  </div>
+
+  <div class="association-item">
+    <img src="Images/ieee.jpg" alt="IEEE">
+    <h3>Institute of Electrical and Electronics Engineers (IEEE)</h3>
+    <p>The world’s largest professional association with 400,000+ members globally, IEEE fosters innovation and technical advancement in electrical, electronics, computer engineering, and telecommunications sectors.</p>
+  </div>
+
+  <div class="association-item">
+    <img src="Images/csi.jpg" alt="CSI">
+    <h3>Computer Society of India (CSI)</h3>
+    <p>India’s first and largest body of computer professionals, CSI is a non-profit organization that promotes computer science and technology through seminars, workshops, and member networking across 72 chapters and 500+ student branches.</p>
+  </div>
+
+  <div class="association-item">
+    <img src="Images/ici.jpg" alt="ICI">
+    <h3>Indian Concrete Institute (ICI)</h3>
+    <p>Founded in 1982, ICI trains professionals in modern concrete construction technologies, collaborates with manufacturers, publishes research, and promotes practical solutions for the industry.</p>
+  </div>
+</div>
+
+<!-- 🔷 MoU Detail -->
+<div class="facility-detail" id="mou" style="display: none;">
+  <h2><i class="fas fa-handshake"></i> Memorandum of Understanding (MoU)</h2>
+
+  <div class="mou-table">
+    <table>
+      <thead>
+        <tr>
+          <th>S.No.</th>
+          <th>Company</th>
+          <th>Date of Agreement</th>
+          <th>Period of MoU</th>
+          <th>Validity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Innovatus Systems, Coimbatore</td><td>02.03.2021</td><td>02.03.2021 - 01.03.2024</td><td>3 Years</td></tr>
+        <tr><td>2</td><td>ABE Semiconductor Designs, Chennai</td><td>27.03.2021</td><td>27.03.2021 - 26.03.2024</td><td>3 Years</td></tr>
+        <tr><td>3</td><td>STEPS Knowledge Services Pvt. Ltd., Coimbatore</td><td>07.05.2021</td><td>07.05.2021 - 06.05.2024</td><td>3 Years</td></tr>
+        <tr><td>4</td><td>Krish Tec, Coimbatore</td><td>12.07.2021</td><td>12.07.2021 - 11.07.2024</td><td>3 Years</td></tr>
+        <tr><td>5</td><td>C CUBE TECHNOLOGIES</td><td>13.09.2021</td><td>13.09.2021 - 12.08.2024</td><td>3 Years</td></tr>
+        <tr><td>6</td><td>Extoltech Solution, Erode</td><td>20.09.2021</td><td>20.09.2021 - 19.09.2026</td><td>5 Years</td></tr>
+        <tr><td>7</td><td>Galaxy Educational Group, Chennai</td><td>20.09.2021</td><td>20.09.2021 - 19.09.2026</td><td>5 Years</td></tr>
+        <tr><td>8</td><td>VESAT RENEWABLES PRIVATE LIMITED, Coimbatore</td><td>03.11.2021</td><td>03.11.2021 - 02.11.2026</td><td>5 Years</td></tr>
+        <tr><td>9</td><td>EduSkills Foundation, Bhubaneswar</td><td>03.06.2022</td><td>03.06.2022 - 02.06.2025</td><td>3 Years</td></tr>
+        <tr><td>10</td><td>FACE Prep, Coimbatore</td><td>12.09.2022</td><td>12.09.2022 - 11.09.2025</td><td>3 Years</td></tr>
+        <tr><td>11</td><td>Indian Biomedical Skill Council (IBSC), Visakhapatnam</td><td>15.09.2022</td><td>15.09.2022 - 14.09.2025</td><td>3 Years</td></tr>
+        <tr><td>12</td><td>Alpha Tech Academy, Bangalore</td><td>17.11.2022</td><td>17.11.2022 - 16.11.2023</td><td>1 Year</td></tr>
+        <tr><td>13</td><td>MAKE LABS RESEARCH AND DEVELOPMENT, Krishnagiri</td><td>11.01.2023</td><td>11.01.2023 - 10.01.2028</td><td>5 Years</td></tr>
+        <tr><td>14</td><td>JANSONS MRI Diagnostic Pvt. Ltd., Erode</td><td>14.03.2023</td><td>14.03.2023 – 13.03.2028</td><td>5 Years</td></tr>
+        <tr><td>15</td><td>Alpha Tech Academy, Bangalore</td><td>05.05.2023</td><td>05.05.2023 – 31.03.2024</td><td>1 Year</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+</section>
+
+<!-- 🚍 Transport Section -->
+<div class="facility-detail" id="transport" style="display: none;">
+  <h2>🚍 Transport Facility</h2>
+  <p>Our college provides well-organized transport services for students and staff across various routes.</p>
+  <div class="pdf-container">
+    <iframe src="https://www.sect.edu.in/pdf/BUS%20TIMININGS%202024-2025.pdf" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+
+
+  <!-- Stats -->
+  <section class="stats" id="stats">
+    <div class="row">
+      <div class="stat-box">
+        <h2 class="counter" data-target="25">0</h2>
+        <p>Courses</p>
+      </div>
+      <div class="stat-box">
+        <h2 class="counter" data-target="80">0</h2>
+        <p>Faculty</p>
+      </div>
+      <div class="stat-box">
+        <h2 class="counter" data-target="2500">0</h2>
+        <p>Students</p>
+      </div>
+      <div class="stat-box">
+        <h2 class="counter" data-target="800">0</h2>
+        <p>Placements</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ WHY CHOOSE US Section -->
+<section class="why-choose" id="why-choose">
+  <h1>Why Choose Our University?</h1>
+  <p>Here are a few reasons why students prefer our campus</p>
+  <div class="row">
+    <div class="choose-box">
+      <i class="fas fa-chalkboard-teacher"></i>
+      <h3>Expert Faculty</h3>
+      <p>Highly qualified faculty from top institutions and industries.</p>
+    </div>
+    <div class="choose-box">
+      <i class="fas fa-briefcase"></i>
+      <h3>Placement Support</h3>
+      <p>Strong corporate tie-ups with 90%+ placement record.</p>
+    </div>
+    <div class="choose-box">
+      <i class="fas fa-microscope"></i>
+      <h3>Innovation Labs</h3>
+      <p>Well-equipped labs for AI, Robotics, IoT & more.</p>
+    </div>
+    <div class="choose-box">
+      <i class="fas fa-award"></i>
+      <h3>National Rankings</h3>
+      <p>Ranked among the top emerging institutes in India.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ✅ Testimonials Section -->
+
+  <!-- Tabbed Content -->
+  <section class="tab-section">
+    <h1>Discover More</h1>
+    <div class="tab-buttons">
+      <button class="tab-btn active" onclick="openTab('academics')">Academics</button>
+      <button class="tab-btn" onclick="openTab('events')">Events</button>
+      <button class="tab-btn" onclick="openTab('achievements')">Achievements</button>
+    </div>
+
+    <div class="tab-content" id="academics">
+      <h3>Academic Programs</h3>
+      <p>We offer UG, PG, and Doctoral programs across Engineering, Science and Management fields.</p>
+    </div>
+
+    <div class="tab-content" id="events" style="display:none;">
+      <h3>Campus Events</h3>
+      <p>Annual tech fests, cultural events and industrial talks happen regularly on campus.</p>
+    </div>
+
+    <div class="tab-content" id="achievements" style="display:none;">
+      <h3>Our Achievements</h3>
+      <p>Over 95% placement rate, 150+ research papers, and 30+ student startups incubated.</p>
+    </div>
+  </section>
+
+<!-- ✅ FAQ Section -->
+<section class="faq" id="faq">
+  <h1>Frequently Asked Questions</h1>
+
+  <div class="faq-item">
+    <button onclick="toggleFAQ(this)">
+      What courses are offered in the college?
+      <span class="faq-icon">+</span>
+    </button>
+    <div class="faq-content">
+      <p>We offer UG, PG and Doctoral programs across engineering, science, and management disciplines.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button onclick="toggleFAQ(this)">
+      Is hostel facility available for students?
+      <span class="faq-icon">+</span>
+    </button>
+    <div class="faq-content">
+      <p>Yes, separate hostel facilities are available for boys and girls with all basic amenities.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button onclick="toggleFAQ(this)">
+      Is there placement support available?
+      <span class="faq-icon">+</span>
+    </button>
+    <div class="faq-content">
+      <p>Yes, we have a dedicated Placement Cell offering training and company tie-ups.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ✅ EXPLORE MORE FEATURES (Navigation) -->
+<section class="extra-nav" id="explore">
+  <h1>Explore More Features</h1>
+  <div class="extra-buttons">
+    <button onclick="switchExtraSection('recruiter-section')">Top Recruiters <i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+    <button onclick="switchExtraSection('gallery-section')">Campus Gallery <i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+    <button onclick="switchExtraSection('vision-section')">Vision & Mission <i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+    <button onclick="switchExtraSection('testimonial-section')">Student Testimonials <i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+    <button onclick="switchExtraSection('departments-section')">Departments <i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+    <button onclick="switchExtraSection('feedback-section')">Feedback Form <i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+    <button onclick="switchExtraSection('news-section')">News & Notice Board <i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+    <button onclick="switchExtraSection('faculty-section')">Faculty Profiles <i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+    <button onclick="switchExtraSection('admission-counter')">Admission Stats <i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+    <button onclick="switchExtraSection('academic-calendar-section')">Academics <i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+    <button onclick="switchExtraSection('achievements-section')">
+      Our Achievements <i class="fa fa-sort-desc" aria-hidden="true"></i>
+    </button>
+    <button onclick="switchExtraSection('campus-tour-section')">Virtual Campus Tour <i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+    <button onclick="switchExtraSection('placement-section')">Placement Stats <i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+    <button onclick="switchExtraSection('awards-section')">
+    Awards & Rankings <i class="fa fa-sort-desc" aria-hidden="true"></i>
+    </button>
+
+  </div>
+  </div>
+</section>
+
+
+<!-- award section ------------------------------- -->
+<section id="awards-section" class="extra-content" style="display: none;">
+  <h2><i class="fas fa-award"></i> Awards & Rankings</h2>
+  <div class="awards-container">
+    
+    <div class="award-card">
+      <i class="fas fa-trophy"></i>
+      <h3>NAAC Accredited</h3>
+      <p>Recognized by NAAC for quality education & infrastructure.</p>
+    </div>
+
+    <div class="award-card">
+      <i class="fas fa-star"></i>
+      <h3>NIRF Ranking</h3>
+      <p>Ranked among top engineering colleges in India.</p>
+    </div>
+
+    <div class="award-card">
+      <i class="fas fa-certificate"></i>
+      <h3>ISO 9001:2015 Certified</h3>
+      <p>Certified for quality management systems.</p>
+    </div>
+
+    <div class="award-card">
+      <i class="fas fa-university"></i>
+      <h3>Best Placement Award</h3>
+      <p>Consistently achieving highest placement record in the region.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ✅ Placement Stats Section -->
+<section id="placement-section"  class="dynamic-extra">
+  <h2><i class="fas fa-briefcase"></i> Placement Stats</h2>
+
+  <div class="placement-counter-container">
+    <div class="counter-box">
+      <h3><i class="fas fa-user-graduate"></i> Students Placed</h3>
+      <span class="counter" data-target="365">0</span>
+    </div>
+    <div class="counter-box">
+      <h3><i class="fas fa-building"></i> Companies Visited</h3>
+      <span class="counter" data-target="120">0</span>
+    </div>
+    <div class="counter-box">
+      <h3><i class="fas fa-chart-line"></i> Highest Package (LPA)</h3>
+      <span class="counter" data-target="15">0</span>
+    </div>
+  </div>
+
+  <canvas id="placementChart" height="200"></canvas>
+</section>
+
+
+
+
+<!-- virtual campus tour ----------------------------------------------- -->
+<div id="campus-tour-section" class="dynamic-extra" style="display: none;">
+  <div class="feature-title">
+    <h2>🎥 Virtual Campus Tour</h2>
+    <p>Explore our vibrant campus through this virtual tour video!</p>
+  </div>
+  <div class="video-wrapper">
+    <iframe src="https://www.youtube.com/embed/pHUMww_Lf7Q?si=NyuGIC5MJb1P3fBb"
+            title="Virtual Campus Tour"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+
+
+
+
+<!-- 🎖️ OUR ACHIEVEMENTS SECTION -->
+<section id="achievements-section" class="dynamic-extra" style="display: none;">
+  <h2><i class="fas fa-trophy"></i> Our Achievements</h2>
+  <div class="achievements-container">
+    <div class="achievement-box">
+      <i class="fas fa-medal"></i>
+      <h4>NBA Accredited Departments</h4>
+      <p>Multiple departments of our institution are NBA accredited for academic excellence and research output.</p>
+    </div>
+    <div class="achievement-box">
+      <i class="fas fa-award"></i>
+      <h4>Anna University Ranks</h4>
+      <p>Consistent top ranks achieved by our students in university exams across branches.</p>
+    </div>
+    <div class="achievement-box">
+      <i class="fas fa-chalkboard-teacher"></i>
+      <h4>Center of Excellence</h4>
+      <p>Our labs are recognized as Centres of Excellence by various industries and academic institutions.</p>
+    </div>
+    <div class="achievement-box">
+      <i class="fas fa-rocket"></i>
+      <h4>Innovation Awards</h4>
+      <p>Students have won national-level innovation contests, hackathons and project expos.</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- ✅ Academic Schedule Section -->
+<section id="academic-calendar-section" class="dynamic-extra" style="display:none;">
+  <h2><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Academic Schedule (Previous Years)</h2>
+  <ul id="scheduleList">
+    <li><a href="https://www.sect.edu.in/pdf/Academic%20Calendar_I%20Year_2024-2025_ODD%20SEMESTER.pdf" target="_blank">Academic Schedule 2024‑25 Odd Semester</a></li>
+    <li><a href="https://www.sect.edu.in/pdf/Academic%20Calendar%20_II%20&%20III%20Year_2024-2025%20ODD%20SEMESTER.pdf" target="_blank">Academic Schedule II & III Year 2024-2025 Odd Semester</a></li>
+    <li><a href="https://www.sect.edu.in/pdf/Academic%20Calender_IV%20YEAR_2024-2025_ODD%20SEMESTER.pdf" target="_blank">Academic Schedule IV YEAR 2024-2025 Odd Semester</a></li>
+    <li><a href="https://www.sect.edu.in/pdf/Academic%20Schedule%20%20III%20&%20IV%20%20B.%20E.%202023-2024%20Odd%20Semester.pdf" target="_blank">Academic Schedule III & IV Yr 2023-24 Odd Semester</a></li>
+    <li><a href="https://www.sect.edu.in/pdf/Academic%20Schedule%20%20I%20Year%20%20B.E.,%20M.E.%20,%20MBA%20&%20%20II%20M.E.%202022-2023%20Even%20Semester.pdf" target="_blank">Academic Schedule I Yr BE / ME / MBA and II ME 2022-23 Even Semester</a></li>
+    <li><a href="https://www.sect.edu.in/pdf/Academic%20Schedule%20%20I%20%20Year%20M.E.%20&%20MBA%202022-2023%20Odd%20Semester.pdf" target="_blank">Academic Schedule I Yr PG 2022-23 Odd Semester</a></li>
+    <li><a href="https://www.sect.edu.in/pdf/Academic%20Schedule%20I%20Year%20B.E.%202022-2023%20Odd%20Semester.pdf" target="_blank">Academic Schedule I Yr 2022-23 Odd Semester</a></li>
+    <li><a href="https://www.sect.edu.in/pdf/Academic%20Schedule%202022-2023%20Even%20Semester.pdf" target="_blank">Academic Schedule 2022-23 Even Semester</a></li>
+    <li><a href="https://www.sect.edu.in/pdf/Academic%20Schedule%202022-2023%20Odd%20Semester.pdf" target="_blank">Academic Schedule 2023-24 Odd Semester</a></li>
+    <li><a href="https://www.sect.edu.in/pdf/Academic%20Schedule%202020-21%20Even%20sem.pdf" target="_blank">Academic Schedule 2020-21 Even Semester</a></li>
+    <li><a href="https://www.sect.edu.in/pdf/Academic%20Schedule%202020-21%20Odd%20sem.pdf" target="_blank">Academic Schedule 2020-21 Odd Semester</a></li>
+    <li><a href="https://www.sect.edu.in/pdf/Academic%20Schedule%202019%20-20%20Even%20Semester.pdf" target="_blank">Academic Schedule 2019-20 Even Semester</a></li>
+    <li><a href="https://www.sect.edu.in/pdf/Academic%20Schedule%202019-20%20Odd%20Semetser.pdf" target="_blank">Academic Schedule 2019-20 Odd Semester</a></li>
+    <li><a href="https://www.sect.edu.in/pdf/Academic%20Schedule%202018-19%20Odd%20Semester.pdf" target="_blank">Academic Schedule 2018-19 Odd Semester</a></li>
+    <li><a href="https://www.sect.edu.in/pdf/Academic%20Schedule%202018-19%20Even%20Semester.pdf" target="_blank">Academic Schedule 2018-19 Even Semester</a></li>
+    <br>
+    <h2><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Annual Schedule</h2>
+      <li><a href="https://www.sect.edu.in/pdf/AnnualReport2021.pdf" target="_blank">Academic Annual schedule</a></li>
+    <br>
+    <h2><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Approvals</h2>
+       <p>AICTE Approvals</p>
+      <li><a href="https://www.sect.edu.in/pdf/AICTE%20EoA%202001-2022.pdf" target="_blank">AICTE EoA Approvals 2000 - 2022</a></li>
+    <br>
+    <h2><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Regulation</h2>
+       <b>Regulations 2023 (R-2023)</b>
+         <li><a href="https://www.sect.edu.in/pdf/UG%20REGULATIONS_R2023.pdf" target="_blank">UG - All Departments</a></li>
+         <li><a href="https://www.sect.edu.in/pdf/PG%20REGULATIONS%202023.pdf" target="_blank">PG - All Departments</a></li>
+       <b>Regulations 2021 (R-2021)</b>
+         <li><a href="https://www.sect.edu.in/pdf/R%202021%20-%20Regulations,%20Curriculam%20and%20Syllabi%20PG%20DEPARTMENTS.pdf" target="_blank">PG - All Departments</a></li>
+       <b>Regulations 2019 (R-2019)</b>
+         <li><a href="https://www.sect.edu.in/pdf/UG_R19_REGULATION.pdf" target="_blank">UG - Engg. All Departments</a></li>
+         <li><a href="https://www.sect.edu.in/pdf/P.G_%20R19_M.E_%20REGULATION.pdf" target="_blank">PG - Engg. All Departments</a></li>
+         <li><a href="https://www.sect.edu.in/pdf/P.G_R19_M.B.A._REGULATION.pdf" target="_blank">PG - MBA</a></li>
+         <li><a href="https://www.sect.edu.in/pdf/UG%20Regulations%202019%20-Revised.pdf" target="_blank">UG - Engg. All Departments (Revised)</a></li>
+    <br>
+    <h2><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Curriculum & Syllabi</h2>
+       <p>Regulations 2023 (R-2023)</p>
+          <b>Under Graduate(UG)</b>
+           <li><a href="https://www.sect.edu.in/pdf/B.E%20CIVIL%20ENGINEERING.pdf" target="_blank">B.E - Civil Engineering</a></li>
+           <li><a href="https://www.sect.edu.in/pdf/B.E.%20COMPUTER%20SCIENCE%20AND%20ENGINEERING.pdf" target="_blank">B.E - Computer Science Engineering</a></li>
+           <li><a href="https://www.sect.edu.in/pdf/B.E.%20COMPUTER%20SCIENCE%20AND%20ENGINEERING%20CYBER%20SECURITY.pdf" target="_blank">B.E - Computer Science Engineering - Cyber Security</a></li>
+           <li><a href="https://www.sect.edu.in/pdf/B.E.%20ELECTRONICS%20AND%20COMMUNICATION%20ENGINEERING.pdf" target="_blank">B.E - Electronics & Communication Engineering</a></li>
+           <li><a href="https://www.sect.edu.in/pdf/R2023%20EEE%20REVISED%20CURRICULUM%20&%20SYLLABI.pdf" target="_blank">B.E - Electrical & Electronics Engineering</a></li>
+           <li><a href="https://www.sect.edu.in/pdf/R%202023%20Revised%20Mechanical%20Syllabus%20&%20Curriculam.pdf" target="_blank">B.E - Mechanical Engineering</a></li>
+           <li><a href="https://www.sect.edu.in/pdf/B.E.%20MEDICAL%20ELECTRONICS.pdf" target="_blank">B.E - Medical Electronics</a></li>
+           <li><a href="https://www.sect.edu.in/pdf/B.E.%20ROBOTICS%20AND%20AUTOMATION.pdf" target="_blank">B.E - Robotics & Automation</a></li>
+           <li><a href="https://www.sect.edu.in/pdf/B.Tech%20ARTIFICIAL%20INTELLIGENCE%20AND%20DATA%20SCIENCE.pdf" target="_blank">B.Tech - Artificial Intelligence & Data Science</a></li>
+           <li><a href="https://www.sect.edu.in/pdf/B.Tech%20INFORMATION%20TECHNOLOGY.pdf" target="_blank">B.Tech - Information Technology</a></li>
+           <li><a href="https://www.sect.edu.in/pdf/B.Tech%20PHARMACEUTICAL%20TECHNOLOGY.pdf" target="_blank">B.Tech - Pharmaceutical Technology</a></li>
+         <b>Post Graduate(PG)</b>
+           <li><a href="https://www.sect.edu.in/pdf/M.E.%20COMPUTER%20SCIENCE%20AND%20ENGINEERING.pdf" target="_blank">M.E - Computer Science Engineering</a></li>
+           <li><a href="https://www.sect.edu.in/pdf/M.E.%20MEDICAL%20ELECTRONICS.pdf" target="_blank"></a>M.E - Medical Electronics</li>
+           <li><a href="https://www.sect.edu.in/pdf/M.E.%20STRUCTURAL%20ENGINEERING.pdf" target="_blank">M.E - Structural Engineering</a></li>
+           <li><a href="https://www.sect.edu.in/pdf/M.E.VLSI%20DESIGN.pdf" target="_blank">M.E - VLSI Design</a></li>
+           <li><a href="https://www.sect.edu.in/pdf/merged%20curriculum%202024%20updated%2005.12.2024.pdf" target="_blank">MBA - Master of Business Administration</a></li>
+
+
+         
+    <!-- आप और साल भी अपनी सुविधा अनुसार यहाँ जोड़ सकते हैं -->
+  </ul>
+</section>
+
+<!-- ...........addmission section-------------------- -->
+
+<section id="admission-counter" class="dynamic-extra" style="display:none;">
+  <h2>Admission Statistics 2025</h2>
+  <p>Live stats of ongoing admission process</p>
+  <div class="admission-stats">
+    <div class="admission-box">
+      <h3 class="counter" data-target="7250">0</h3>
+      <p>Total Applications</p>
+    </div>
+    <div class="admission-box">
+      <h3 class="counter" data-target="520">0</h3>
+      <p>Seats Available</p>
+    </div>
+    <div class="admission-box">
+      <h3 class="counter" data-target="4680">0</h3>
+      <p>Admissions Confirmed</p>
+    </div>
+    <div class="admission-box">
+      <h3 class="counter" data-target="1125">0</h3>
+      <p>Ongoing Enquiries</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- faculty section------------------------------------------------- -->
+
+<section id="faculty-section" class="dynamic-extra" style="display:none;">
+  <h2>Meet Our Faculty</h2>
+  <p>Our experienced and dedicated faculty members</p>
+  <div id="facultyContainer" class="faculty-grid"></div>
+</section>
+
+
+    <!-- Extra profiles hidden initially -->
+    <div class="faculty-card extra-faculty" style="display: none;">
+      <img src="https://via.placeholder.com/100" alt="Dr. Sameer Khan">
+      <h3>Dr. Sameer Khan</h3>
+      <p>Professor - Mechanical</p>
+    </div>
+    <div class="faculty-card extra-faculty" style="display: none;">
+      <img src="https://via.placeholder.com/100" alt="Dr. Priya Nair">
+      <h3>Dr. Priya Nair</h3>
+      <p>Assistant Professor - Civil</p>
+    </div>
+    <!-- Aap jitna chahein yahan aur add kar sakte hain -->
+  </div>
+
+  <button class="hero-btn small-btn" onclick="toggleFaculty()">Show More</button>
+</section>
+
+
+<!-- ✅ News & Notice Board Section -->
+<section id="news-section" class="dynamic-extra" style="display:none;">
+  <h2>📰 News & Notice Board</h2>
+  <div class="news-form">
+    <input type="text" id="newsTitle" placeholder="Enter News Title">
+    <textarea id="newsDescription" placeholder="Enter Description..."></textarea>
+    <button onclick="addNews()">Add News</button>
+  </div>
+  <ul id="newsList" class="news-list">
+    <!-- Jo news aap add karenge wo yahan dikhengi -->
+  </ul>
+</section>
+
+
+
+<!-- ✅ Feedback Section -->
+<!-- ✅ Feedback Form Section -->
+<section id="feedback-section" class="dynamic-extra" style="display: none;">
+  <h2>Give Us Your Feedback</h2>
+  <p>We value your suggestions to improve our campus experience.</p>
+
+  <form id="feedbackForm" class="feedback-form">
+    <div class="form-group">
+      <label for="name">Name *</label>
+      <input type="text" id="name" name="name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email *</label>
+      <input type="email" id="email" name="email" required />
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone Number *</label>
+      <input type="tel" id="phone" name="phone" required />
+    </div>
+
+    <div class="form-group">
+      <label for="department">Department *</label>
+      <input type="text" id="department" name="department" required />
+    </div>
+
+    <div class="form-group">
+      <label for="message">Your Feedback *</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="rating">Rating (1 to 5) *</label>
+      <select id="rating" name="rating" required>
+        <option value="">Select</option>
+        <option value="5">5 - Excellent</option>
+        <option value="4">4 - Very Good</option>
+        <option value="3">3 - Good</option>
+        <option value="2">2 - Fair</option>
+        <option value="1">1 - Poor</option>
+      </select>
+    </div>
+
+    <button type="submit" class="hero-btn small-btn">Submit Feedback</button>
+  </form>
+</section>
+
+
+<!-- ✅ Departments Section (Now Hidden by Default) -->
+<section id="departments-section" class="dynamic-extra" style="display: none;">
+  <h1>Our Departments</h1>
+  <p>Explore all academic departments in our institution</p>
+  <div class="accordion-container">
+    <div class="accordion-item">
+      <button onclick="toggleAccordion(this)">Computer Science & Engineering <span class="icon">+</span></button>
+      <div class="accordion-content">
+        <p>Courses in AI, Web Development, Data Science, Cybersecurity & Programming Languages.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button onclick="toggleAccordion(this)">Electronics & Communication <span class="icon">+</span></button>
+      <div class="accordion-content">
+        <p>VLSI, Embedded Systems, Signal Processing, IoT & Communication Networks.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button onclick="toggleAccordion(this)">Mechanical Engineering <span class="icon">+</span></button>
+      <div class="accordion-content">
+        <p>Automobile, Thermodynamics, CAD/CAM, Robotics and Manufacturing Systems.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button onclick="toggleAccordion(this)">Civil Engineering <span class="icon">+</span></button>
+      <div class="accordion-content">
+        <p>Structural Design, Construction Materials, Environmental and Geotechnical Engineering.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button onclick="toggleAccordion(this)">Electrical Engineering <span class="icon">+</span></button>
+      <div class="accordion-content">
+        <p>Power Systems, Control Engineering, Machines, Renewable Energy, and Automation.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button onclick="toggleAccordion(this)">MBA & Management <span class="icon">+</span></button>
+      <div class="accordion-content">
+        <p>Business Analytics, Finance, Marketing, HRM and Strategic Management programs.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button onclick="toggleAccordion(this)">Science & Humanities <span class="icon">+</span></button>
+      <div class="accordion-content">
+        <p>Courses in Physics, Chemistry, Mathematics, English, Economics & Soft Skills.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ✅ Recruiter Section -->
+
+<section id="recruiter-section" class="dynamic-extra" style="display:none;">
+  <h2>Our Top Recruiters</h2>
+  <p>Our students are placed in top companies</p>
+  <div class="logo-slider">
+    <div class="logo-track">
+      <img src="Images/tcs.jpeg" alt="TCS Logo" />
+      <img src="Images/infosys.png" alt="Infosys Logo" />
+      <img src="Images/wipro.png" alt="Wipro Logo" />
+      <img src="Images/hcl.png" alt="HCL Logo" />
+      <img src="Images/accenture.png" alt="Accenture Logo" />
+      <img src="Images/cognizant.png" alt="Cognizant Logo" />
+      <img src="Images/capgemini.png" alt="Capgemini Logo" />
+    </div>
+  </div>
+</section>
+
+<!-- ✅ Gallery Section -->
+<section id="gallery-section" class="dynamic-extra" style="display:none;">
+  <h2>Campus Gallery</h2>
+  <p>Photos of labs, classrooms, fests, and more...</p>
+  <div class="gallery-grid">
+    <img src="Images/Campus.png" alt="campus Image" />
+    <img src="Images/library.jpg" alt="Labrary Hall" />
+    <img src="Images/LabundeView.png" alt="Labrary inside image" />
+    <img src="Images/Sport.png" alt="Sports Image" />
+    <img src="Images/studentDiss.png" alt="student Discussion " />
+    <img src="Images/PlacementHall.png" alt="Placement Hall" />
+    <img src="Images/GDroom.png" alt="GD ROOM" />
+     <img src="Images/SeminarHall.jpg" alt="Seminar Hall" />
+  </div>
+</section>
+
+<!-- ✅ Vision & Mission Section -->
+<section id="vision-section" class="dynamic-extra" style="display:none;">
+  <h2>Our Vision & Mission</h2>
+  <div class="vision-mission-box">
+    <div class="vision">
+      <h3>Our Vision</h3>
+      <p>
+        To emerge as a globally recognized institution that nurtures innovation,
+        excellence, and holistic development among students, empowering them to
+        become ethical leaders and responsible citizens.
+      </p>
+    </div>
+    <div class="mission">
+      <h3>Our Mission</h3>
+      <ul>
+        <li>Provide quality technical and professional education with strong academic foundation.</li>
+        <li>Promote research, innovation, and entrepreneurship among students and faculty.</li>
+        <li>Foster partnerships with industries for practical exposure and placements.</li>
+        <li>Encourage cultural, ethical, and social responsibility through extracurricular activities.</li>
+        <li>Create a learner-centric environment for academic excellence and personal growth.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ✅ Testimonials -->
+<!-- ✅ Testimonials Dynamic Section -->
+<section id="testimonial-section" class="dynamic-extra" style="display:none;">
+  <h2>What Our Students Say</h2>
+  <p>Our alumni speak about their wonderful journey on campus.</p>
+
+  <div class="testimonial-slider extra">
+    <div class="testimonial active">
+      <p>"The placement training and faculty guidance helped me crack my dream company."</p>
+      <h3>— Rahul Verma, IT</h3>
+    </div>
+    <div class="testimonial">
+      <p>"Labs, library, and the environment here makes it a perfect place to study and grow."</p>
+      <h3>— Nidhi Singh, ECE</h3>
+    </div>
+    <div class="testimonial">
+      <p>"Thanks to the amazing startup cell, I launched my first app before graduation!"</p>
+      <h3>— Adarsh Raj, CSE</h3>
+    </div>
+  </div>
+</section>
+
+
+<!-- 📢 Popup Notice -->
+<div class="popup-notice" id="popupNotice">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closePopupNotice()">&times;</span>
+    <h3><i class="fas fa-bullhorn"></i> Admission Notice</h3>
+    <p>🎓 Admissions for 2025-2026 are now open! Apply before <strong>31st August</strong>.</p>
+    <!-- <a href="#admission-section" class="popup-link">Apply Now</a> -->
+    <a href="javascript:void(0);" class="popup-link" onclick="openAdmissionEnquiry()">Apply Now</a>
+
+  </div>
+</div>
+
+
+
+<!-- 💬 Chat Widget -->
+<div class="chat-widget" id="chatWidget">
+  <div class="chat-icon" onclick="toggleChatBox()">
+    <i class="fas fa-comments"></i>
+  </div>
+  <div class="chat-box" id="chatBox">
+    <div class="chat-header">
+      <h4><i class="fas fa-robot"></i> Live Chat</h4>
+      <span onclick="toggleChatBox()">×</span>
+    </div>
+    <div class="chat-body">
+      <p><strong>Bot:</strong> Hi! How can I assist you?</p>
+      <div class="chat-input-area">
+        <input type="text" placeholder="Type your message..." id="chatInput" onkeypress="handleChat(event)">
+        <button onclick="sendChatMessage()"><i class="fas fa-paper-plane"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer / Contact Us -->
+<section class="footer" id="contact">
+  <h2><i class="fas fa-address-book"></i> Contact Us</h2>
+  <p>Have any questions regarding admissions, placements, facilities, or courses? Feel free to reach out to us!</p>
+  <p>Our dedicated support team is always ready to assist you. You can contact us via phone, email, or by visiting the campus directly.</p>
+
+  <ul class="contact-info">
+    <li><i class="fas fa-map-marker-alt"></i> Sengunthar Engineering College, Kosavampalayam, Kumaramangalam (Po), Tiruchengode - 637205, Tamil Nadu, India</li>
+    <li><i class="fas fa-envelope"></i> <a href="mailto:info@scteng.co.in, ">info@scteng.co.in, </a></li>
+    <li><i class="fas fa-phone-alt"></i> <a href="tel:04288 255716, 04288 250444">04288 255716, 04288 250444</a></li>
+    <li><i class="fas fa-globe"></i> <a href="https://www.sect.edu.in" target="_blank">www.sect.edu.in</a></li>
+  </ul>
+
+  <div class="social-icons">
+    <a href="https://www.facebook.com/groups/220445308091440/?ref=share_group_link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/sengunthar_tiruchengode?utm_source=qr&igsh=YTlmZjI0ZWMzOA" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.youtube.com/@senguntharengineeringcollege" target="_blank"><i class="fab fa-youtube"></i></a>
+  </div>
+
+  <p>© <span id="currentYear"></span> Sengunthar Engineering College. All rights reserved.</p>
+</section>
+
+   
+   <!-- ✅ Campus Map Section Inside Contact -->
+ <div class="campus-map-container">
+  <h2><i class="fas fa-map-marker-alt"></i> Our Campus Location</h2>
+  <p>Find us easily! Here's the interactive map of our campus.</p>
+
+  <div class="map-wrapper">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.330864648116!2d78.12676057482772!3d11.630479988569697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babd6a5ac12eb3d%3A0x4e502c9a3d4560cf!2sSengunthar%20Engineering%20College!5e0!3m2!1sen!2sin!4v1663865580442!5m2!1sen!2sin"
+      width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+  </div>
+ </div>
+</section>
+
+<div class="developer-credit">
+  <p>Website Designed & Developed By <strong>Rohit Kumar</strong></p>
+  <p><i class="fas fa-phone-alt"></i> +91 82945 70597 | 
+     <i class="fas fa-envelope"></i> <a href="mailto:rohitprajapati829457@gmail.com">rohitprajapati829457@gmail.com</a>
+  </p>
+</div>
+
+
+  <!-- Back to Top Button -->
+  <button id="backToTopBtn" title="Go to top">⬆</button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>  
+
+
